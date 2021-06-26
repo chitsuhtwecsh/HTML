@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.nav{
+    background-color: gainsboro;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: gold;
+}
+.btn:active{
+    background-color: green;
+}
+.main{
+    padding: 10px;
+}
+
+.sidemenu{
+    width: 200px;
+    background-color: gainsboro;
+    padding: 10px 20px;
+    float: left;
+    margin-right: 10px;
+}
+.sidemenu>ul>li{
+    padding: 5px 20px;
+    border-bottom:solid 2px gray;
+    list-style: none;
+    text-align: center;
+}
+.sidemenu>ul>li>a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.sidemenu>ul>li>a:hover{
+    background-color: blueviolet;
+    padding; 5px 10 px;
+    display: block;
+    display: inline-block;
+}
+.sidemenu>ul>li>a:active{
+    background-color: yellowgreen;
+    padding; 5px 10 px;
+    display: block;
+    display: inline-block;
+}
+.maincontent{
+    background-color: gainsboro;
+    width: 800px;
+    height: 200px;
+    float: left;
+    
+
+}
+
+
+    
